@@ -4,13 +4,16 @@ body{
 }
 
 h1{
-font-size:40px ;
+font-size:50px ;
+}
+h2{
+    font-size:35px;
 }
 
 .orang-color{
 color: orange;
 }
-section{
+.flex-for-need{
     display: flex;
     margin-bottom: 150px;
 }
@@ -31,21 +34,54 @@ section{
 }
 .button-work{
   text-decoration: none;
-  background-color:#FF906D ;
+  background-image: linear-gradient(-90deg, red, yellow);
+  /* background: linear-gradient(45deg, lightsalmon, tomato); */
+  
   padding: 10px 40px ;
   border-radius:5px;
   font-weight: 700;
   color: white;
 }
 .top-banner{
-    background-image: url(image/top-banner.png);
-    background-repeat: no-repeat;
+background-image: url(image/top-banner.png);
+background-repeat: no-repeat;
 }
 .bird-dream{
-    background-image: url(image/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    padding-right: 8%;
-    padding-bottom: 20%;
+background-image: url(image/dream-bg.png);
+background-repeat: no-repeat;
+background-position: right;
+padding-right: 8%;
+padding-bottom: 10%;
 }
+.developer-one{
+ width: 40%;
+margin-left: 5%;
+margin-right: 5%;
+box-shadow: 20px 20px 40px gray;
+padding-left: 20px ;
+padding-bottom: 10%;  
+border-radius: 5px;
+}
+#stuck{
+border-left: 10px solid orangered;
+/* border-image:linear-gradient(#f6b73c, #4d9f0c) 30; */
+}
+
+#baby{
+    border-left: 10px solid blue; 
+    /* border-image:linear-gradient(#f6b73c, #4d9f0c) 30;  */
+}
+.experiance{
+background-image: url(image/exp-bg.png);
+background-repeat: no-repeat;
+background-position: left;
+}
+footer P{
+    text-align: center;
+ }
+
+
+
+    
+
 
